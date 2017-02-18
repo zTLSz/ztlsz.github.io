@@ -1,0 +1,223 @@
+<html>
+  <head>
+
+	 <link rel="stylesheet" type="text/css" href="css/style.css">
+	 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=cyrillic">
+  </head>
+  <body>
+  <header class="main-header clearfix">
+    <div class="container">
+      <div class="top-header">
+	  
+	 
+         <div class="main-logo">
+        <img src="image/menu-logo.png" width="140" height="58">
+          </div>
+	  
+	      <nav class="main-menu">
+           <ul>
+          <li><a href="index.html">Студия</a>
+          </li>
+           <li><a href="#">Клиенты</a>
+          </li>
+           <li><a href="#">Магазин</a>
+          </li>
+           <li><a href="#">Контакты</a>
+          </li>
+            </ul>
+          </nav>
+		  
+		  <div class="user-cart">
+		  <img src="image/.icon-basket.png" width="15" height="15">
+		  <a class="cart" href="#">Корзина</a>
+		  </div>
+		  
+	  </div>
+	  <div class="low-header header-contacts">
+	  
+	     <div class="header-catalog">
+		 <span class="header-text">Добро пожаловать в магазин готовых макетов.</span> 
+		 </div>
+		 
+		 
+	  
+	  </div>
+    </div>
+    </header>
+    <div class="container clearfix">
+      <div class="catalog-change">
+	  <span class="price"><p>СТОИМОСТЬ</p></span>
+	    <div class="progress-bar">
+	     <input type="range" id="price" min="0" max="15000" step="1" value="0" onchange="pricefunc()"> 
+		 </div>
+		 
+		 <div class="price-diapason">
+	      ОТ <input type="text" name="date" value="" placeholder="0"> ДО <input type="text" id="currentprice"  placeholder="15000">
+		  </div>
+		 
+		 <div class="net">
+		 <span class="price"><p>СЕТКА</p></span>
+		  <p><input type="radio" class="radio" id="radio1" name="radio" checked><label for="radio1">Адаптивная</label></p>
+          <p><input type="radio" class="radio" id="radio2" name="radio"><label for="radio2">Фиксированная</label></p>
+          <p><input type="radio" class="radio" id="radio3" name="radio"><label for="radio3">Резиновая</label></p>
+		 </div>
+	  
+	  
+	  
+	    <div class="prefs">
+	    <span class="price"><p>ОСОБЕННОСТИ:</p></span>
+	  <p><input type="checkbox" class="checkbox" id="checkbox1" name="checkbox" checked><label for="checkbox1">Слайдер</label></p>
+	  <p><input type="checkbox" class="checkbox" id="checkbox2" name="checkbox"><label for="checkbox2">Блок приемуществ</label></p>
+	  <p><input type="checkbox" class="checkbox" id="checkbox3" name="checkbox"><label for="checkbox3">Новости</label></p>
+	  <p><input type="checkbox" class="checkbox" id="checkbox4" name="checkbox"><label for="checkbox4">Галерея</label></p>
+	  <p><input type="checkbox" class="checkbox" id="checkbox5" name="checkbox"><label for="checkbox5">Корзина</label></p>
+	    </div>
+	  
+	  <div class="see">
+	   <span class="mustseen"><p>ПОКАЗАТЬ</p></span>
+	  </div>
+	  </div>
+	  
+	  <div class="shop">
+	  
+	    <div class="sort">
+	    <span class="mustseen"><p>СОРТИРОВАТЬ:</p></span>
+	    </div> 
+		
+		<div class="sort-func">
+		<span class="mustseen"><p><a href="#">ПО ЦЕНЕ</a></p></span>
+		</div>
+		
+		<div class="sort-func">
+		<span class="mustseen"><p><a href="#">ПО ТИПУ</a></p></span>
+		</div>
+		
+		<div class="sort-func">
+		<span class="mustseen"><p><a href="#">ПО ФУНКЦИОНАЛУ</a></p></span>
+		</div>
+		
+		<div class="up-down">
+		</div>
+		
+		
+		<div class="shop-content-catalog">
+		<div class="content-circle content-circle1"></div>
+		<div class="content-circle content-circle2"></div>
+		<div class="content-circle content-circle3"></div>
+		<div class="mousemove-block">Макет Sunset<br>Цена 10000р.</div>
+		<img src="image/sun.jpg" width="240" height="240">
+        </div>	
+
+	    <div class="shop-content-catalog">
+		<div class="content-circle content-circle1"></div>
+		<div class="content-circle content-circle2"></div>
+		<div class="content-circle content-circle3"></div>
+		<img src="image/aviator.jpg" width="240" height="240">
+        </div>	
+		
+	    <div class="shop-content-catalog">
+		<div class="content-circle content-circle1"></div>
+		<div class="content-circle content-circle2"></div>
+		<div class="content-circle content-circle3"></div>
+		<img src="image/modern.jpg" width="240" height="240">
+        </div>			
+		
+	     <div class="shop-content-catalog">
+		 <div class="content-circle content-circle1"></div>
+		<div class="content-circle content-circle2"></div>
+		<div class="content-circle content-circle3"></div>
+		<img src="image/forte.jpg" width="240" height="240">
+        </div>
+		
+       <div class="shop-content-catalog">
+	   <div class="content-circle content-circle1"></div>
+		<div class="content-circle content-circle2"></div>
+		<div class="content-circle content-circle3"></div>
+		<img src="image/dovetail.jpg" width="240" height="240">
+        </div>
+		
+		<div class="shop-content-catalog">
+		<div class="content-circle content-circle1"></div>
+		<div class="content-circle content-circle2"></div>
+		<div class="content-circle content-circle3"></div>
+		<img src="image/avenue.jpg" width="240" height="240">
+        </div>
+		
+		<nav class="pages">
+		<ul>
+		<li><a href="#">1</a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li><a href="#">Следующая</a></li>
+		</ul>
+		</nav>
+		
+		
+		</div>
+	  </div>
+    </div>
+	
+	
+	
+	
+	
+	
+	<div class="container-contacts">
+	
+	<div class="contacts clearfix">
+	  <div class="contacts-main">
+	  <b>NERDS DESIGN STUDIO</b>
+	  <p>191186, Санкт-Петербург,<br> 
+ул. Б. Конюшенная, д. 19/8 <br>
+	  тел. +7 (812) 275-75-75</p>
+	  <button class="btn-log btn-pink">Напишите нам</button>
+	  </div>
+	  
+	  <div class="dot-map">
+	  <img src="image/dot.png" width="150" height="157">
+	  <img src="image/menu-logo.png" width="90" height="35">
+	  </div>
+	</div>
+	
+	
+	</div>
+    <footer class="main-footer  clearfix">
+	
+      <div class="container">
+        <div class="social-btns"> 
+		  <a class="social-btn social-btn-vk" href="#"></a>
+		  <a class="social-btn social-btn-fb" href="#"></a>
+		  <a class="social-btn social-btn-in" href="#"></a>
+		</div>
+		
+		<div class="footer-text">
+		<b class="footer-content-main">Давайте дружить, это выгодно!</b><br>
+		Скидка 10% для друзей из социальных сетей.
+		</div>
+      </div>
+        </footer>
+		
+		<div class="modal-window clearfix">
+		  <div class="name">
+		  Ваше имя<br>
+		  <input class="name-user" type="text" name="login" placeholder="ПРЕДСТАВТЕСЬ">
+		  </div>
+		  
+		  <div class="email">
+		  Ваше e-mail<br>
+		  <input class="name-user" type="text" name="login" placeholder="ДЛЯ ОТПРАВКИ ОТВЕТА">
+		  </div>
+		  
+		  <div class="textmail-big">
+		  Текст письма<br>
+		  <textarea cols="10" rows="10" placeholder="ДЛЯ ОТПРАВКИ ОТВЕТА"></textarea>
+		  </div>
+		  
+		   <button class="btn btn-send-modal">ОТПРАВИТЬ</button>
+		  
+           <button class="modal-window-close" type="button" title="Закрыть">Закрыть</div>
+		</div>
+		
+		<script src="js/scripts.js"></script>
+  </body>
+</html>
