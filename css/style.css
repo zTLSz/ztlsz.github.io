@@ -613,7 +613,7 @@ input[type=range]:focus {
 	width: 16px;
 	height: 16px;
 	border-radius: 10%;
-	background: #ffffff url(../image/icon-check-on.png) no-repeat center;;
+	background: #ffffff url("../image/icon-check-on.png") no-repeat center;;
 
 	opacity: 0;
 	transition: all .2s;
