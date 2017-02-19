@@ -445,15 +445,15 @@ body {
 }
 
 .social-btn-vk {
-	background: #e1e1e1 url("../image/.icon-vk.png") no-repeat center;
+	background: #e1e1e1 url("../image/icon-vk.png") no-repeat center;
 }
 
 .social-btn-fb {
-	background: #e1e1e1 url("../image/.icon-facebook.png") no-repeat center;
+	background: #e1e1e1 url("../image/icon-facebook.png") no-repeat center;
 }
 
 .social-btn-in {
-	background: #e1e1e1 url("../image/.icon-instagramm.png") no-repeat center;
+	background: #e1e1e1 url("../image/icon-instagramm.png") no-repeat center;
 }
 
 .social-btn:hover {
@@ -613,7 +613,7 @@ input[type=range]:focus {
 	width: 16px;
 	height: 16px;
 	border-radius: 10%;
-	background: #ffffff url(../image/.icon-check-on.png) no-repeat center;;
+	background: #ffffff url(../image/icon-check-on.png) no-repeat center;;
 
 	opacity: 0;
 	transition: all .2s;
