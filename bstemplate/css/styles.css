@@ -138,6 +138,11 @@ h4 {
 @media all and (max-width: 900px) {
 	.row .col-md-4 {
 	max-width: 100%;
-	
 }
 }
+
+  .affix {
+      top: 0;
+      width: 100%;
+      background-color: black;
+  }

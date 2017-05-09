@@ -17,7 +17,7 @@
 
 <div class="bg-1">
 <!-- Navbar -->
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="197">
 <div class="container-fluid">
   <div class="navbar-header">
     <a class="navbar-brand" href="#"><span class="nav-logo">START TEMPLATE</span></a>
@@ -125,7 +125,28 @@
 
 <div class="container-fluid text-center container-4">
 <h2>Quis autem vel eum iure reprehenderit </h2>
-<button type="button" class="btn btn-danger btn-2"><b>DOWNLOAD NOW!</b></button>
+<button type="button" class="btn btn-danger btn-2" data-toggle="modal" data-toggle="modal" data-target="#myModal"><b>DOWNLOAD NOW!</b></button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Start Downloading</h4>
+        </div>
+        <div class="modal-body">
+          <p>Files start downloading right now! (or not)</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
 </div>
 
 <!-- Footer -->
