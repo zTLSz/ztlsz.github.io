@@ -1,0 +1,143 @@
+.bg-1 {
+    background-image: url("../img/header.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+.navbar {
+   font-weight: bold;
+
+   background: 0;
+}
+
+.nav-logo {
+   color: #cfcfcf;
+}
+.nav-logo:hover {
+	color: white;
+	transition: 0.3s;
+}
+
+.container-1 {
+	min-height: 100%;
+}
+
+.container-center {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.container-1 h1 {
+	font-size: 50px;
+	margin-top: 20%;
+	font-weight: bold;
+	color: white;
+}
+
+hr {
+	width: 100px;
+	border-color: red;
+}
+
+.container-1 h3 {
+	color: white;
+	opacity: 0.5;
+}
+
+.btn {
+	border-radius: 25px;
+	padding: 15px 25px;
+	
+	border: none;
+}
+
+.btn-1 {
+	background-color: #F05F40;
+	transition: 0.5s;
+	margin-top: 40px;
+}
+
+.container-2 {
+	background-color: #F05F40;
+	padding: 100px 0;
+    color: white;
+}
+
+.container-2 h2 {
+	font-weight: bold;
+}
+
+
+
+.container-2 hr {
+	border-color: white;
+}
+
+h4 {
+	opacity: 0.7;
+	line-height: 1.5em;
+}
+
+
+.btn-2 {
+	background-color: white;
+	transition: 0.5s;
+	color: black;
+	margin-top: 10px;
+}
+
+.container-3 {
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.container-3 .row {
+	max-width: 1200px;
+	
+}
+
+.image {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	margin: 0 auto;
+}
+
+.row {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+
+.row .col-md-4 {
+	height: 350px;
+	max-width: 33.333%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.container-4 {
+    padding: 50px 0;
+    margin: 0 auto;
+    background-color: #333;
+    color: white;
+}
+
+.container-footer {
+	padding: 100px 0;
+	margin: 0 auto;
+}
+
+.img {
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+@media all and (max-width: 900px) {
+	.row .col-md-4 {
+	max-width: 100%;
+	
+}
+}
