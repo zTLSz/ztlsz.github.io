@@ -90,7 +90,7 @@
 								<a href="#">+7 831 222-22-22</a>
 							</div>
 							<div class="header__btn">
-								<a class="btn-red btn-red-cb" data-toggle="modal" data-target="#exampleModal" href="#">Заказать звонок</a>
+								<a class="btn-red btn-red-cb mdl-js-button mdl-button--raised mdl-js-ripple-effect" data-toggle="modal" data-target="#exampleModal" href="#">Заказать звонок</a>
 							</div>
 						</div>
 					</div>
@@ -203,7 +203,7 @@
 					</div>
 					<div class="col-xl-12 col-md-12 col-sm-12 col-12">
 						<div class="btn__more">
-							<a href="#" class="btn-red">Посмотреть все проекты</a>
+							<a href="#" class="btn-red  mdl-js-button mdl-button--raised mdl-js-ripple-effect">Посмотреть все проекты</a>
 						</div>
 					</div>
 				</div>
@@ -279,7 +279,7 @@
 					</div>
 					<div class="col-xl-12 col-md-12 col-sm-12 col-12">
 						<div class="btn__more">
-							<a href="#" class="btn-red">Все новости</a>
+							<a href="#" class="btn-red mdl-js-button mdl-button--raised mdl-js-ripple-effect">Все новости</a>
 						</div>
 					</div>
 				</div>
@@ -289,10 +289,10 @@
 				<div class="container">
 					<div class="news__footer">
 						<div class="news__footer-icons">
-							<a class="social-icon social-icon__vk-red" href="#"></a>
-							<a class="social-icon social-icon__fb-red" href="#"></a>
-							<a class="social-icon social-icon__in-red" href="#"></a>
-							<a class="social-icon social-icon__yt-red" href="#"></a>
+							<a class="social-icon social-icon__vk-red mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="#"></a>
+							<a class="social-icon social-icon__fb-red mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="#"></a>
+							<a class="social-icon social-icon__in-red mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="#"></a>
+							<a class="social-icon social-icon__yt-red mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="#"></a>
 						</div>
 						<div class="news__footer-copyright">
 							Все права на публикуемые на сайте материалы принадлежат ООО «АНДЭКО», 2018
@@ -321,10 +321,10 @@
 								Задать вопрос менеджеру в чате
 							</div>
 							<div class="footer__social-icons">
-								<a class="social-icon social-icon__vk" href="#"></a>
-								<a class="social-icon social-icon__tg" href="#"></a>
-								<a class="social-icon social-icon__vb" href="#"></a>
-								<a class="social-icon social-icon__wp" href="#"></a>
+								<a class="social-icon social-icon__vk mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="#"></a>
+								<a class="social-icon social-icon__tg mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="#"></a>
+								<a class="social-icon social-icon__vb mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="#"></a>
+								<a class="social-icon social-icon__wp mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="#"></a>
 							</div>
 							<div class="footer__social-inf">
 								<p>Любая информация, представленная на данном сайте, носит исключительно информационный характер, и ни при каких условиях не является публичной офертой, определяемой положениями статьи 437 ГК РФ.</p>
@@ -348,14 +348,24 @@
 	      </div>
 	      <form name="cb-form">
 		      <div class="modal-body">
-		      		<label>
+		      		<!--<label>
 		        		<input type="text" name="cb-name" placeholder="Введите Ваше имя" required>
 		        		<i class="input__icon input__icon-user"></i>
 		        	</label>
 		        	<label>
 		        		<input type="tel" name="cb-tel" placeholder="Введите номер телефона" required>
 		        		<i class="input__icon input__icon-tel"></i>
-		        	</label>
+		        	</label>-->
+		        	<div class="mdl-textfield mdl-js-textfield input__wrapper">
+					    <input class="mdl-textfield__input" type="text" name="cbdfd" id="cb-name" required>
+					    <label class="mdl-textfield__label" for="cb-name"><span>Введите Ваше имя</span></label>
+					    <i class="input__icon input__icon-user"></i>
+  					</div>
+  					<div class="mdl-textfield mdl-js-textfield input__wrapper">
+					    <input class="mdl-textfield__input" type="tel" name="cb-tel" id="cb-tel" required>
+					    <label class="mdl-textfield__label" for="cb-tel"><span>Введите телефон</span></label>
+					    <i class="input__icon input__icon-tel"></i>
+  					</div>
 		        	<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
 		        		<input type="checkbox" name="personal-checkbox" class="mdl-checkbox__input" required>
 		        		<span>
@@ -366,7 +376,7 @@
 		        	</label>
 		      </div>
 		      <div class="modal-footer">
-		        <input type="submit" name="cb-submit" class="btn-red" value="Заказать звонок">
+		        <input type="submit" name="cb-submit" class="btn-red mdl-js-button mdl-button--raised mdl-js-ripple-effect" value="Заказать звонок">
 		      </div>
 	      </form>
 	    </div>
