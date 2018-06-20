@@ -41,7 +41,6 @@
 										<ul>
 											<li><a href="#">Реализованные объекты</a></li>
 											<li><a href="#">Коммерческая недвижимость</a></li>
-											<li><a href="#">Пункт меню</a></li>
 										</ul>
 									</div>
 								</li>
@@ -63,7 +62,6 @@
 										<ul>
 											<li><a href="#">Реализованные объекты</a></li>
 											<li><a href="#">Коммерческая недвижимость</a></li>
-											<li><a href="#">Пункт меню</a></li>
 											<li><a href="#">Ипотека</a></li>
 										</ul>
 									</div>
@@ -178,7 +176,7 @@
 						<div class="mort__adv-item">
 							<div class="mort__adv-item-top">
 								<div class="mort__adv-item-img">
-									<img src="img/money.svg" alt="adv">
+									<img src="img/icons/money-01.svg" alt="adv">
 								</div>
 								<div class="mort__adv-item-main">
 									0%
@@ -200,31 +198,44 @@
 							<h2>Ипотечный калькулятор</h2>
 						</div>
 					</div>
-					<div class="col-xl-7 col-md-12 col-sm-12 col-12">
+					<div class="col-xl-7 col-lg-8 col-md-12 col-sm-12 col-12">
 						<div class="calc__ranges">
 							<div class="calc__ranges-item">
-								<div id="calc-procent-val" class="calc__ranges-item-amount"></div>
-								<input class="mdl-slider mdl-js-slider" id="calc-procent" type="range"
-  								min="80" max="120" step="1" value="90" tabindex="0">
+								<div class="calc__ranges-name">Процентная ставка</div>
+								<div class="calc__ranges-inp">
+									<div id="calc-procent-val" class="calc__ranges-item-amount"></div>
+									<input class="mdl-slider mdl-js-slider" id="calc-procent" type="range"
+	  								min="80" max="120" step="1" value="90" tabindex="0">
+  								</div>
   							</div>
   							<div class="calc__ranges-item">
-  								<div id="calc-price-val" class="calc__ranges-item-amount"></div>
-  								<input class="mdl-slider mdl-js-slider" id="calc-price" type="range"
-  								min="1000000" max="9999999" step="1000" value="4000000" tabindex="0">
+  								<div class="calc__ranges-name">Стоимость недвижимости</div>
+								<div class="calc__ranges-inp">
+  									<div id="calc-price-val" class="calc__ranges-item-amount"></div>
+  									<input class="mdl-slider mdl-js-slider" id="calc-price" type="range"
+  									min="1000000" max="9999999" step="1000" value="4000000" tabindex="0">
+  								</div>
   							</div>
   							<div class="calc__ranges-item">
-  								<div id="calc-depo-val" class="calc__ranges-item-amount"></div>
-  								<input class="mdl-slider mdl-js-slider" id="calc-depo" type="range"
-  								min="0" max="8000000" step="1000" value="500000" tabindex="0">
+  								<div class="calc__ranges-name">Первоначальный взнос</div>
+								<div class="calc__ranges-inp">  	
+	  								<div id="calc-depo-val" class="calc__ranges-item-amount"></div>
+	  								<input class="mdl-slider mdl-js-slider" id="calc-depo" type="range"
+	  								min="0" max="8000000" step="1000" value="500000" tabindex="0">
+	  							</div>
   							</div>
   							<div class="calc__ranges-item">
-  								<div id="calc-time-val" class="calc__ranges-item-amount"></div>
-  								<input class="mdl-slider mdl-js-slider" id="calc-time" type="range"
-  								min="1" max="30" step="1" value="5" tabindex="0">
+   								<div class="calc__ranges-name">Срок ипотечного кредита</div>
+								<div class="calc__ranges-inp"> 
+  									<div id="calc-time-val" class="calc__ranges-item-amount"></div>
+  									<input class="mdl-slider mdl-js-slider" id="calc-time" type="range"
+  									min="1" max="30" step="1" value="5" tabindex="0">
+  								</div>
+
   							</div>
 						</div>
 					</div>
-					<div class="col-xl-4 offset-xl-1 col-md-12 col-sm-12 col-12">
+					<div class="col-xl-4 offset-xl-1 col-lg-4 col-md-12 col-sm-12 col-12">
 						<div class="calc__results">
 							<div class="calc__results-item">
 								<span class="calc__results-item-name">Сумма кредита</span>
