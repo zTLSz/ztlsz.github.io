@@ -40,7 +40,7 @@
 									<div class="hover__menu">
 										<ul>
 											<li><a href="#">Реализованные объекты</a></li>
-											<li><a href="#">Коммерческая недвижимость</a></li>
+											<li><a href="#">Раскрытие информации застройщиком</a></li>
 										</ul>
 									</div>
 								</li>
@@ -85,7 +85,7 @@
 					<div class="col-xl-5 col-lg-4 col-sm-4 col-5">
 						<div class="header__contacts">
 							<div class="header__tel">
-								<a href="#">+7 831 222-22-22</a>
+								<a href="#">+7 831 280-98-03</a>
 							</div>
 							<div class="header__btn">
 								<a class="btn-red btn-red-cb mdl-js-button mdl-button--raised mdl-js-ripple-effect" data-toggle="modal" data-target="#exampleModal" href="#">Заказать звонок</a>
@@ -112,7 +112,7 @@
 							<div class="mort__big-item-text">
 								<h2>Ипотека с "Андэко"</h2>
 								<p>Мы подберем для Вас несколько ипотечных программ от наших банков-партнеров. Вам останется выбрать только лучшую.</p>
-								<a href="#" class="btn-red mdl-js-button mdl-button--raised mdl-js-ripple-effect">Подбрать программу</a>
+								<a href="#" class="btn-red mdl-js-button mdl-button--raised mdl-js-ripple-effect">Подобрать программу</a>
 							</div>
 						</div>
 					</div>
@@ -268,7 +268,7 @@
 					<div class="col-xl-3 col-md-4 col-sm-12 col-12 mort__banks-item-wrap">
 						<div class="mort__banks-item">
 							<div class="mort__banks-item-img">
-								<a href="#"><img src="img/sber-big.png" alt="bank"></a>
+								<a data-toggle="modal" data-target="#bankModal" href="#"><img src="img/sber-big.png" alt="bank"></a>
 							</div>
 							<div class="mort__banks-item-text">
 								<p class="project__perc">Ставка от 6%</p>
@@ -538,6 +538,70 @@
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn-red" data-dismiss="modal">Закрыть</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+
+	<div class="modal fade bankModal" id="bankModal" tabindex="-1" role="dialog" aria-labelledby="bnModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <div class="bankModal-header">
+	        	<div class="bankModal-header-img">
+	        		<img src="img/sber-big.png" alt="bank">
+	        	</div>
+	        	<div class="bankModal-header-text bankModal-header-proc">
+	        		<div class="bankModal-header-text-top">Ставка от</div>
+	        		<div class="bankModal-header-text-big">6%</div>
+	        	</div>
+	        	<div class="bankModal-header-text bankModal-header-r">
+	        		<div class="bankModal-header-text-top">Взнос от</div>
+	        		<div class="bankModal-header-text-big">15%</div>
+	        	</div>
+	        	<div class="bankModal-header-text bankModal-header-t">
+	        		<div class="bankModal-header-text-top">Срок выплаты до</div>
+	        		<div class="bankModal-header-text-big">30 лет</div>
+	        	</div>	        	
+	        </div>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body bankModal-text">
+	      	<p>Генеральная лицензия Банка России №1481 от 11.08.2015 г.</p>
+	      	<hr>
+	      	<p class="bm-head">Основные условия кредитования</p>
+	      	<ul>
+	      		<li>Возможно досрочное погашение кредита в любой день без ограничений по сумме платежа, при этом выбрать либо уменьшение срока кредитования либо сумму ежемесячного платежа;</li>
+
+				<li>Материнский капитал возможно использовать в качестве первоначального взноса по кредиту;
+				Возраст заёмщика от 21 года, срок возврата кредита – до исполнения 75 лет;</li>
+
+				<li>Подтверждение дохода клиента возможно по справке 2-НДФЛ или справке (заявление) по форме банка;
+				Клиенты, имеющие зарплатную карту Сбербанка не подтверждают доход и трудовую занятость;</li>
+
+				<li>Программа "Акция для Застройщиков": ставка для зарплатных клиентов банка - 9,5%, для них же с электронной регистрацией - 9,4%;</li>
+
+				<li>Для остальной категории клиентов ставка 10,0%, и с электронной регистрацией - 9,9%.</li>
+	      	</ul>
+	      	<hr>
+	      	<p class="bm-head">«Ипотека с государственной поддержкой для семей с детьми». </p>
+			<p>Действует с 07 февраля 2018 г. <br>
+				Процентная ставка по ипотеке составит 6% годовых: </p>
+			<ul>
+	      		<li>Первые 3 года по кредитам для семей, у которых родился второй ребенок;
+				Первые 5 лет в случае рождения третьего ребенка.</li>
+	      	</ul>
+	      	<p class="bm-head">Размер первоначального взноса:	</p>
+	      	<p>Размер первоначального взноса:	</p>
+	      	<p class="bm-head">Требования по страхованию: </p>
+			<p>Обязательное страхование имущества, передаваемого в залог, в соответствии с требованиями ПАО Сбербанк. Обязательное страхование жизни и здоровья заемщика/титульного созаемщика, при этом применение особого условия «Защищенный кредит» является обязательным на весь период действия льготной ставки. </p>
+			<p class="bm-head">Процентная ставка после окончания периода действия льготной ставки: </p>
+			<p>Устанавливается в размере 9,5% годовых (на период до первого изменения ключевой ставки ЦБ РФ);<br>
+				<i>После первого изменения ключевой ставки ЦБ РФ процентная ставка устанавливается на уровне ключевой ставки ЦБ РФ на дату выдачи кредита, увеличенной на 2 п.п.</i></p>
 	      </div>
 	    </div>
 	  </div>

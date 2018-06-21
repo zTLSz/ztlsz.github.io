@@ -5,6 +5,8 @@
         // Styles a map in night mode.
         var mark1 = {lat: 56.306, lng: 44.029};
         var mark2 = {lat: 56.282, lng: 43.931};
+
+        
         var map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 56.284, lng: 43.997},
           zoom: 12,
@@ -134,6 +136,9 @@
     }
 ]
         });
+
+
+
 
         var markerContent = '<div class="marker-clicker">'   +   '<div class="project__item project__item-comm">' +
                 '<div class="project__item-img">' +
