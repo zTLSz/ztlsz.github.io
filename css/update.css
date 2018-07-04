@@ -5,3 +5,18 @@
 .slider__big-about {
 	min-height: calc(60vh - 80px);
 }
+
+.sticky-block {
+	position: relative;
+	z-index: 30;
+	box-shadow: none;
+}
+
+.sticky-block.active {
+	position: fixed;
+	top: 0;
+}
+
+.sticky-block.active + section {
+	padding-top: 180px;
+}
