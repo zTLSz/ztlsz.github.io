@@ -35,6 +35,7 @@
 						<source src="img/background.mp4" type="video/mp4">
 					</video>
 			</div>
+			<div class="header__video-overlay"></div>
 			<section class="header__big">
 				<div class="header__top">
 					<div class="container">
@@ -289,7 +290,7 @@
 								Выберите направление работы
 						</div>
 					</div>
-					<div class="offset-xl-1 col-xl-4 col-lg-12 col-md-12 col-12">
+					<div class="offset-xl-1 col-xl-4 col-lg-12 col-md-12 col-12 p__hover-wrap-left order-1">
 						<div class="partition__item partition__item-hover partition__item-nk">
 							<div class="partition__item-top">
 								<div class="partition__item-lab">
@@ -321,20 +322,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-2 d-m-none">
-						<div class="partition__nav ">
-							<div class="partition__nav-text">
-									Выберите
-									направление
-									работы
-							</div>
-							<div class="partition__nav-arr">
-								<a href="#" class="partition__nav-left"></a>
-								<a href="#" class="partition__nav-right"></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-4 col-lg-12 col-md-12 col-12">
+					<div class="col-xl-4 col-lg-12 col-md-12 col-12 p__hover-wrap-right order-3">
 						<div class="partition__item partition__item-hover partition__item-nw">
 							<div class="partition__item-top">
 								<div class="partition__item-lab">
@@ -361,6 +349,19 @@
 								<a href="#" class="button__black">
 									В раздел
 								</a>					
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-2 d-m-none order-2">
+						<div class="partition__nav ">
+							<div class="partition__nav-text">
+									Выберите
+									направление
+									работы
+							</div>
+							<div class="partition__nav-arr">
+								<a href="#" class="partition__nav-left"></a>
+								<a href="#" class="partition__nav-right"></a>
 							</div>
 						</div>
 					</div>
@@ -626,9 +627,11 @@
 							<form name="consform">
 								<label>
 									<input type="text" name="name" placeholder="Ваше имя">
+									<b></b>
 								</label>
 								<label>
 									<input type="tel" name="tel" placeholder="Ваш телефон">
+									<b></b>
 								</label>
 								<div>
 									<label  class="cons__form-conf">
@@ -965,7 +968,10 @@
 											</g>
 											<g id="KRY_1" transform="translate(0.000000, 306.000000)">
 												<filter id="blur-filter" x="-5" y="-5" width="200" height="200">
-														<feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+														<feGaussianBlur in="SourceGraphic" stdDeviation="1" />
+												</filter>
+												<filter id="shadow">
+														<feDropShadow dx="0" dy="0" stdDeviation="2.5"/>
 												</filter>
 												<path d="M17,39 C28.3333333,30.5925605 34,23.2592272 34,17 C34,7.61115925 26.3888407,0 17,0 C7.61115925,0 0,7.61115925 0,17 C0,23.2592272 5.66666667,30.5925605 17,39 Z" id="Oval" fill="#FFFFFF"></path>
 												<g id="arrow-tiny" transform="translate(12.000000, 14.000000)" fill="#F04100" fill-rule="nonzero">
@@ -1284,7 +1290,7 @@
 					</h2>
 				</div>
 				<div class="row">
-					<div class="offset-xl-1 col-xl-4 col-lg-6 col-md-6 col-12">
+					<div class="offset-xl-1 col-xl-4 col-lg-6 col-md-6 col-12 p__hover-wrap-left order-1">
 						<div class="partition__item qcontacts__item qcontacts__item-m-hidden">
 							<div class="cons__form">
 								<div class="cons__form-title">
@@ -1294,9 +1300,11 @@
 								<form name="qform">
 									<label>
 										<input type="text" name="name" placeholder="Ваше имя">
+										<b></b>
 									</label>
 									<label>
 										<input type="tel" name="tel" placeholder="Ваш телефон">
+										<b></b>
 									</label>
 									<div>
 										<label  class="cons__form-conf">
@@ -1313,15 +1321,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-2 d-m-none">
-						<div class="partition__nav">
-							<div class="partition__nav-arr">
-								<a href="#" class="partition__nav-left"></a>
-								<a href="#" class="partition__nav-right"></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-4  col-lg-6 col-md-6">
+					<div class="col-xl-4  col-lg-6 col-md-6 p__hover-wrap-right order-3">
 						<div class="partition__item qcontacts__item qcontacts__item-center">
 							<div class="qcontacts__item-image">
 								<img src="img/phone-image@2x.jpg" alt="p">
@@ -1337,6 +1337,14 @@
 							</div>
 						</div>
 					</div>
+					<div class="col-xl-2 d-m-none order-2">
+							<div class="partition__nav">
+								<div class="partition__nav-arr">
+									<a href="#" class="partition__nav-left"></a>
+									<a href="#" class="partition__nav-right"></a>
+								</div>
+							</div>
+						</div>
 				</div>				
 			</div>
 		</section>
@@ -1598,9 +1606,11 @@
 								<form name="cbform">
 									<label>
 										<input type="text" name="name" placeholder="Ваше имя">
+										<b></b> 
 									</label>
 									<label>
 										<input type="tel" name="tel" placeholder="Ваш телефон">
+										<b></b>
 									</label>
 									<div>
 										<label  class="cons__form-conf">
