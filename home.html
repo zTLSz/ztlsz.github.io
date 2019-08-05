@@ -92,7 +92,7 @@
 								</div>
 							</div>
 							<div class="offset-lg-2 col-lg-1 offset-md-1 col-md-1 d-d-none offset-3 col-1">
-								<a href="#popupcb" id="popupcbopenmob" class="header__mob-city"></a>
+								<a class="header__mob-city"></a>
 							</div>
 							<div class="offset-lg-0 col-lg-1 offset-md-0 col-md-1 d-d-none offset-1 col-1">
 								<a href="#mobmenu" id="mobmenuopen" class="header__hamb"></a>
@@ -476,7 +476,11 @@
 								<img src="img/icons/icon-time.svg" alt="iiv">
 							</div>
 							<div class="adv__item-text">
-									Оперативное проведение контроля и исследований
+									Полное<br>
+									сопровождение
+									до<br> аттестации
+									объекта, помощь
+									с документами
 							</div>
 						</div>
 					</div>
@@ -528,7 +532,11 @@
 											<img src="img/icons/icon-time.svg" alt="iiv">
 										</div>
 										<div class="adv__item-text">
-												Оперативное проведение контроля и исследований
+												Полное
+												сопровождение
+												до аттестации
+												объекта, помощь
+												с документами
 										</div>
 									</div>
 								</div>
@@ -606,7 +614,7 @@
 		<section class="cons">
 			<div class="container">
 				<div class="row">
-					<div class="offset-xl-1 col-xl-3 col-lg-4 col-md-5 col-12">
+					<div class="offset-xl-1 col-xl-3 col-lg-4 col-md-4 col-12">
 						<div class="cons__form">
 							<div class="cons__form-title">
 									Получить 
@@ -620,6 +628,9 @@
 								<label>
 									<input type="tel" name="tel" placeholder="Ваш телефон">
 									<b></b>
+									<div class="form__error">
+										Ошибка! заполните поле
+									</div>
 								</label>
 								<div>
 									<label  class="cons__form-conf">
@@ -627,12 +638,27 @@
 											<input type="checkbox" checked><i></i>
 										</div>
 										<div class="cons__form-conf-text">
-												нажимая на кнопку Отправить, я соглашаюсь с политикой конфиденциальности
+												нажимая на кнопку Отправить, я соглашаюсь с <a href="#">политикой конфиденциальности</a>
 										</div>
 									</label>
 								</div>
-								<input type="submit" value="Отправить" class="button__red">
+								<input type="submit" value="Отправить" class="button__red" id="cbtestcons">
 							</form>
+						</div>
+						<div class="cons__form cons__form-success hidden">
+							<div class="cons__form-title">
+									Спасибо.
+									Ваша заявка принята
+									в обработку.
+							</div>
+							<div class="partition__item qcontacts__item qcontacts__item-center">
+								<div class="qcontacts__item-tel-image">
+									<img src="img/icons/icon-phone.svg" alt="p">
+								</div>
+								<div class="qcontacts__item-text">
+										Мы свяжемся с Вами в течение 15 минут!
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -1267,12 +1293,27 @@
 							</div>
 							<div class="projects__slider-item">
 								<div class="projects__slider-image">
-									<img src="img/gasprom-svg.svg" alt="image">
+									<img src="img/clients/5@2x.png" alt="image">
 								</div>
 							</div>
 							<div class="projects__slider-item">
 								<div class="projects__slider-image">
-									<img src="img/gasprom-svg.svg" alt="image">
+									<img src="img/clients/3@2x.png" alt="image">
+								</div>
+							</div>
+							<div class="projects__slider-item">
+								<div class="projects__slider-image">
+									<img src="img/clients/1@2x.png" alt="image">
+								</div>
+							</div>
+							<div class="projects__slider-item">
+								<div class="projects__slider-image">
+									<img src="img/clients/4@2x.png" alt="image">
+								</div>
+							</div>
+							<div class="projects__slider-item">
+								<div class="projects__slider-image">
+									<img src="img/clients/6@2x.png" alt="image">
 								</div>
 							</div>
 						</div>
@@ -1319,7 +1360,7 @@
 												<input type="checkbox" checked><i></i>
 											</div>
 											<div class="cons__form-conf-text">
-													нажимая на кнопку Отправить, я соглашаюсь с политикой конфиденциальности
+													нажимая на кнопку Отправить, я соглашаюсь с <a href="#">политикой конфиденциальности</a>
 											</div>
 										</label>
 									</div>
@@ -1625,7 +1666,7 @@
 												<input type="checkbox" checked><i></i>
 											</div>
 											<div class="cons__form-conf-text">
-													нажимая на кнопку Отправить, я соглашаюсь с политикой конфиденциальности
+													нажимая на кнопку Отправить, я соглашаюсь с <a href="#">политикой конфиденциальности</a>
 											</div>
 										</label>
 									</div>
@@ -1645,6 +1686,7 @@
 									<div class="qcontacts__item-text">
 											Мы свяжемся с Вами в течение 15 минут!
 									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -1662,7 +1704,7 @@
 										<a href="#">info@lks24.ru</a>
 									</div>
 									<div class="header__call">
-										<a href="#popupcb" id="popupcbopen">заказать звонок</a>
+										<a href="#popupcb" id="popupcbopenmob">заказать звонок</a>
 									</div>
 								</div>
 							</div>
@@ -1677,7 +1719,7 @@
 								</div>
 							</div>
 							<div class="offset-lg-2 col-lg-1 offset-md-1 col-md-1 col-10 d-d-none order-1">
-									<a href="#popupcb" id="popupcbopenmob" class="header__mob-city"></a>
+									<a href="tel:+78005059252" class="header__mob-city"></a>
 							</div>
 						</div>
 					</div>
