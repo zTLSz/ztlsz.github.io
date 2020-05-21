@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#212121" stroke-width="2" d="M1 1h62v62H1z"/>
+        <g transform="translate(7 10)">
+            <path fill="#F04100" fill-rule="nonzero" d="M31 31a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm0-3a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"/>
+            <path fill="#212121" d="M31.35 22.45L44.635 16l-12.398 9.04a1.128 1.128 0 0 1-1.725-.526c-.291-.801.07-1.693.836-2.065z"/>
+            <rect width="17" height="3" y="13" fill="#212121" rx="1.5"/>
+            <rect width="8" height="3" x="2" y="23" fill="#212121" rx="1.5"/>
+            <rect width="11" height="3" x="7" y="33" fill="#212121" rx="1.5"/>
+            <path fill="#212121" d="M32 3v4h-2V3z"/>
+            <rect width="10" height="3" x="26" fill="#212121" rx="1.5"/>
+            <path fill="#212121" d="M39.44 7.854l1.414-1.415a1.5 1.5 0 1 1 2.12 2.122l-1.413 1.414a1.5 1.5 0 1 1-2.122-2.121z"/>
+            <path fill="#212121" fill-rule="nonzero" d="M31 43c10.493 0 19-8.507 19-19S41.493 5 31 5s-19 8.507-19 19 8.507 19 19 19zm0-3c-8.837 0-16-7.163-16-16S22.163 8 31 8s16 7.163 16 16-7.163 16-16 16z"/>
+        </g>
+    </g>
+</svg>
